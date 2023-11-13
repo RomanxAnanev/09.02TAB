@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul{
+    list-style: none;
+  }
+  body {
+    font-family: sans-serif;
+    font-size: 40px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container{
+    max-width: 1770px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header{
+    margin-top: 27px;
+    width: 1770px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-menu{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .search{
+    width: 757px;
+    height: 54px;
+    border-radius: 30px;
+    padding-left: 40px;
+    font-size: 16px;
+    border: none;
+    background-color: rgba(239, 239, 239, 1);
+  }
+  .icons{
+    width: 354px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .first_block{
+    margin-top: 90px;
+  }
+
+.promo{
+    margin-top: 60px;
+    width: 1770px;
+    display: grid;
+    gap: 60px;
+    grid-template-areas: 
+        "A B C C D D"
+        "E E C C F F"
+        "J J J J H I"
+        "J J J J H G";
+    height: 1160px;
+}
+[class^="box-"]{
+    display: grid;
+    place-items: center;
+}
+.box-1{
+    grid-area: A;
+}
+.box-2{
+    grid-area: B;
+}
+.box-3{
+    grid-area: C;
+}
+.box-4{
+    grid-area: D;
+}
+.box-5{
+    grid-area: E;
+}
+.box-6{
+    grid-area: F;
+}
+.box-7{
+    grid-area: J;
+}
+.box-8{
+    grid-area: H;
+}
+.box-9{
+    grid-area: I;
+}
+.box-10{
+    grid-area: G;
+}
+.goods__title{
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-right: auto;
+}
+.third_block{
+    margin-top: 100px;
+    width: 1770px;
+}
+.goods{
+    display: flex;
+    gap: 50px 30px;
+    flex-wrap: wrap;
+}
+.card__price{
+    display: flex;
+    align-items: center;
+}
+.price__sale{
+    color: var(--3, #2D2D2D);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 28px;
+}
+.price__mainPrice{
+    color: var(--3, #2D2D2D);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: line-through;
+}
+.card__desc{
+    color: var(--3, #2D2D2D);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    margin-top: 140px;
+    color: white;
+    background-color: rgba(45, 45, 45, 1);
+    width: 100%;
+    padding-bottom: 113px;
+}
+.columns{
+    margin-top: 80px;
+    width: 1770px;
+    display: flex;
+    justify-content: space-around;
+}
+.column1 p{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.column1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 378px;
+    margin-right: 120px;
+}
+.column2{
+    margin-right: 30px;
+}
+.column2 h3, .column4 h3, .column5 h3{
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+.columns p{
+    font-size: 22px;
+    margin-bottom: 15px;
+    
+}
+.column3{
+    margin-top: 75px;
+    margin-right: 100px;
+}
+.info{
+    margin-top: 150px;
+}
+.social-img{
+    margin-top: 36px;
+}
+.column4 {
+    margin-right: 180px;
+}
+.column5 p{
+    font-size: 16px;
+}
+li{
+    color: var(--1, #FFF);
+    /* text reg */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+}
+li > a{
+    text-decoration: none;
+    color: var(--1, #FFF);
+    /* text reg */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+}
+.social__number{
+    color: var(--2, #FFF);
+    /* text bold */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 20.8px */
+}
+.social__email{
+    color: var(--2, #FFF);
+    /* text bold */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 20.8px */
+}
+.social__contact{
+    display: flex;
+    flex-direction: column;
+}
